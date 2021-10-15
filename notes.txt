@@ -31,4 +31,9 @@ README.md --> arquivo de leitura para interpretações iniciais ;)
 
     git status --> verifica o status dos commits
 
+    git add arquivo.txt --> adiciona o arquivo ao branch
+        git add -A --> adiciona todos os arquivos ao branch
+
+
+    git commit -m "comentario" --> cria o commit com o "comentario"
 
