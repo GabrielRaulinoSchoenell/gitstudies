@@ -1,0 +1,34 @@
+____configurando o git____
+
+determinando dados
+    git config --global user.name "Gabriel Raulino"
+
+    git config --global user.email "gabrielraulinoschoenell@gmail.com"
+
+    git config --global core.editor vscode
+
+mostrando dados
+    git config user.name
+
+    git config --list
+
+
+
+______iniciando um repositorio______
+
+git .init
+
+
+_______branches, readme, commit_____
+
+branches --> versoes
+
+commit --> atualização de versionamento, armazena modificações
+
+README.md --> arquivo de leitura para interpretações iniciais ;)
+
+    ____cmd:
+
+    git status --> verifica o status dos commits
+
+
