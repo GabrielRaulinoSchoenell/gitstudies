@@ -36,6 +36,7 @@ README.md --> arquivo de leitura para interpretações iniciais ;)
 
 
     git commit -m "comentario" --> cria o commit com o "comentario"
+        git commit -am -> adiciona e ja faz o commit
 
     git log --> mostra os commits 
 
@@ -44,9 +45,15 @@ README.md --> arquivo de leitura para interpretações iniciais ;)
 
 ______revertendo modificações______
 
-batata tbatbjh
+git reset --soft 37419823748923748 --> desfaz o commit, mas as alterações ainda estarão la
+git reset  --mixed 387492387142--> desfaz o add
+git reset --hard 903824909 --> desfaz as alterações
 
 
+______trabalhando com varios branches_____
 
 
+git branch nome --> cria o branch nome
+
+git checkout nome --> vai ao branch nome
 
