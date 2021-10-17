@@ -57,3 +57,4 @@ git branch nome --> cria o branch nome
 
 git checkout nome --> vai ao branch nome
 
+.... esqueci de retornar do branch teste para o master... e ainda estou iniciando os bagulho, entao nao sei como rsolver esse tipo de questao. portanto foi mal. depois eu crio outro
