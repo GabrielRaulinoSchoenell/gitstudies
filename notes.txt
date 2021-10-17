@@ -106,6 +106,19 @@ gerando o repositorio no github:
     git push -u nome branchAEnviar
 
 
-atualizando repositorio remoto
+________atualizando repositorio remoto_______
 
 git push nome branchAEnviar
+
+
+
+_________ignorando arquivos no git________
+
+criar arquivo .gitignore
+
+no .gitignore:
+
+    nome.html
+    *.txt
+
+esses arquivos pasarão a ser ignorados
