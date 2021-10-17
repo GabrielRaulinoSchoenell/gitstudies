@@ -57,3 +57,50 @@ git branch nome --> cria o branch nome
 
 git checkout nome --> vai ao branch nome
 
+
+_______diferença entre arquivos__________
+
+git diff
+
+git diff --name-only
+
+git diff style.css
+
+git checkout HEAD -- style.css --> volta as alterações no style.css
+
+
+
+
+_____criar repoitório no GIT HUB_____
+             _
+            ||__ 
+basta criar |__/
+
+
+
+_____conectando um repositorio local a um remoto____
+
+gerar ssh key: 
+
+    abrir git bash
+
+
+    rodar:
+        $ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+    dar enter no file
+
+    digitar a senha (não vai aparecer)
+
+    vai gerar a chave no .ssh em Use/nome
+
+    pegar o conteudo dessa chave e por no git (settings / ssh e gpg keys)
+
+
+gerando o repositorio no github: 
+
+    git remote add nome http ://gabrel/git (geralmente nome = origin)
+
+        (para ver o repositorio remoto: git remote)
+
+    git push -u nome branchAEnviar
