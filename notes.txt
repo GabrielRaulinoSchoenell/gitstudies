@@ -104,3 +104,8 @@ gerando o repositorio no github:
         (para ver o repositorio remoto: git remote)
 
     git push -u nome branchAEnviar
+
+
+atualizando repositorio remoto
+
+git push nome branchAEnviar
